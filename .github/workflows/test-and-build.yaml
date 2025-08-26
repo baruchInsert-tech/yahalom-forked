@@ -1,9 +1,6 @@
 name: Build project
 
 on:
-  push:
-    branches:
-      - master
   pull_request: {}
   workflow_dispatch: {}
 
@@ -28,10 +25,32 @@ jobs:
             echo "is_unity_license_set=false" >> $GITHUB_OUTPUT
           fi
 
+  test:
+    name: Run Unity Tests
+    needs: checklicense
+    if: needs.checklicense.outputs.is_unity_license_set == 'true'
+    runs-on: windows-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v4
+
+      - name: Run Unity Tests
+        uses: game-ci/unity-test-runner@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+
+      - name: Upload Test Results
+        uses: actions/upload-artifact@v4
+        with:
+          name: TestResults
+          path: artifacts
+
   buildForAllSupportedPlatforms:
     name: Build for ${{ matrix.targetPlatform }}
-    needs: checklicense
-    if: needs.checklicense.outputs.is_unity_license_set == 'true' 
+    needs: [checklicense, test]
+    if: needs.checklicense.outputs.is_unity_license_set == 'true'
     runs-on: windows-latest
     strategy:
       fail-fast: false
@@ -43,7 +62,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          lfs: true
 
       # Cache Unity Library folder.
       - uses: actions/cache@v3
