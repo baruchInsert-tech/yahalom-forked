@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/baruchInsert-tech/yahalom-forked/compare/v1.1.0...v1.2.0) (2025-09-18)
+
+
+### Features
+
+* modify release please ([88d1151](https://github.com/baruchInsert-tech/yahalom-forked/commit/88d115164b29bc5142d025959044065997b9227e))
+
 ## [1.1.0](https://github.com/baruchInsert-tech/yahalom-forked/compare/v1.0.0...v1.1.0) (2025-09-18)
 
 
