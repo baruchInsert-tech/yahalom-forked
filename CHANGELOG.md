@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.3.0](https://github.com/baruchInsert-tech/yahalom-forked/compare/v1.2.0...v1.3.0) (2025-09-18)
+
+
+### Features
+
+* change release type ([5e2dbd0](https://github.com/baruchInsert-tech/yahalom-forked/commit/5e2dbd080e4bd870619711884d5841af7804fe52))
+* change release type ([54a9391](https://github.com/baruchInsert-tech/yahalom-forked/commit/54a93916f8abe3753916cb2681af566953b2a199))
+* set version in unity file ([44fe6c6](https://github.com/baruchInsert-tech/yahalom-forked/commit/44fe6c6cdb7e0d46596e63ed67976fe16ef4f746))
+* set version in unity file ([4041799](https://github.com/baruchInsert-tech/yahalom-forked/commit/40417991ded002a54e5e134bd587c40fc717a46b))
+
 ## [1.2.0](https://github.com/baruchInsert-tech/yahalom-forked/compare/v1.1.0...v1.2.0) (2025-09-18)
 
 
