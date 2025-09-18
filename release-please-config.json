@@ -7,9 +7,9 @@
 	  "release-type": "simple",	
       "extra-files": [
         {
-          "type": "yaml",
+          "type": "custom",
           "path": "ProjectSettings/ProjectSettings.asset",
-          "jsonpath": "$.PlayerSettings.bundleVersion"
+          "command": "./update_unity_version.sh"
         }
       ]
     }
