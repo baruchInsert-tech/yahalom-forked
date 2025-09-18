@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.4.0](https://github.com/baruchInsert-tech/yahalom-forked/compare/v1.3.0...v1.4.0) (2025-09-18)
+
+
+### Features
+
+* change version path ([6d46296](https://github.com/baruchInsert-tech/yahalom-forked/commit/6d462965762a6b67d2c29cc8136d54607b8b5281))
+* change version path ([60f82f0](https://github.com/baruchInsert-tech/yahalom-forked/commit/60f82f06e335f2c0478169829015fef1d6a3e422))
+* search replace ([8e01ec4](https://github.com/baruchInsert-tech/yahalom-forked/commit/8e01ec4e320472804d1c1bcf89bc567eae3be599))
+* search replace ([8806c50](https://github.com/baruchInsert-tech/yahalom-forked/commit/8806c50b68234c6942c105257c443d1896f70005))
+* test again ([d22d078](https://github.com/baruchInsert-tech/yahalom-forked/commit/d22d0787dd9f877e6eb18bca9ba5fe7688c3a084))
+* test again ([9eaa086](https://github.com/baruchInsert-tech/yahalom-forked/commit/9eaa086ddcba9cb04cac092bf53222c2d7cd5624))
+* update relase ([0b50a54](https://github.com/baruchInsert-tech/yahalom-forked/commit/0b50a54fe797226cc6e4feb43c3957f2974b2e32))
+* Update release ([68cb4e5](https://github.com/baruchInsert-tech/yahalom-forked/commit/68cb4e51fd0a24bc84f85fc00cede40479d2819f))
+
 ## [1.3.0](https://github.com/baruchInsert-tech/yahalom-forked/compare/v1.2.0...v1.3.0) (2025-09-18)
 
 
