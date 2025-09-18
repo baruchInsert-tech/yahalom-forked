@@ -8,7 +8,12 @@
         {
           "type": "generic",
           "path": "ProjectSettings/ProjectSettings.asset",
-          "jsonpath": "$.bundleVersion"
+          "search-replace": [
+		    {
+			  "find": "bundleVersion: \\d+\\.\\d+\\.\\d+",
+			  "replace": "bundleVersion: {{version}}"
+			}
+          ]			
         }
       ]
     }
