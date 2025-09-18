@@ -4,12 +4,13 @@
   "include-component-in-tag": false,
   "packages": {
     ".": {
-	  "release-type": "simple",	
+      "release-type": "simple",
       "extra-files": [
         {
-          "type": "custom",
+          "type": "plain",
           "path": "ProjectSettings/ProjectSettings.asset",
-          "command": "./update_unity_version.sh"
+          "search": "bundleVersion: .*",
+          "replace": "bundleVersion: ${version}"
         }
       ]
     }
