@@ -6,9 +6,10 @@
     ".": {
       "extra-files": [
         {
-          "type": "yaml",
+          "type": "regex",
           "path": "ProjectSettings/ProjectSettings.asset",
-          "jsonpath": "$.PlayerSettings.bundleVersion"
+		  "search": "bundleVersion: .+",
+          "replace": "bundleVersion: ${version}"
         }
       ]
     }
