@@ -17,4 +17,5 @@ jobs:
         with:
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
+          release-please-version: latest   # or a specific >= 18.x version
           token: ${{ secrets.GITHUB_TOKEN }}
