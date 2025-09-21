@@ -6,9 +6,10 @@
       "release-type": "simple",
       "extra-files": [
         {
-          "type": "yaml",
+          "type": "regex",
           "path": "ProjectSettings/ProjectSettings.asset",
-          "jsonpath": "$['PlayerSettings']['bundleVersion']"
+          "pattern": "(?m)^(\\s*bundleVersion:\\s*)([0-9]+\\.[0-9]+\\.[0-9]+)\\s*$",
+          "repl": "$1${version}"
         }
       ]
     }
