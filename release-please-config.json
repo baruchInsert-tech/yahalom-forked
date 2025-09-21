@@ -5,12 +5,7 @@
     ".": {
       "release-type": "simple",
       "extra-files": [
-        {
-          "type": "regex",
-          "path": "ProjectSettings/ProjectSettings.asset",
-          "pattern": "(?m)^(\\s*bundleVersion:\\s*)([0-9]+\\.[0-9]+\\.[0-9]+)\\s*$",
-          "repl": "$1${version}"
-        }
+        "ProjectSettings/ProjectSettings.asset"
       ]
     }
   },
