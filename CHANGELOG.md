@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.7.0](https://github.com/baruchInsert-tech/yahalom-forked/compare/v1.6.0...v1.7.0) (2025-09-21)
+
+
+### Features
+
+* comment project bundle ([6bea37f](https://github.com/baruchInsert-tech/yahalom-forked/commit/6bea37fc06e46133dbf6033278f5d3e91fc69d04))
+* fix relase yaml ([f9d1661](https://github.com/baruchInsert-tech/yahalom-forked/commit/f9d16614b1d22b4232c0ca208612e9b394e33739))
+* one mote test ([a683064](https://github.com/baruchInsert-tech/yahalom-forked/commit/a683064a51910fe72f27ff3786c071c84aa738a5))
+* update release please verion ([32864b7](https://github.com/baruchInsert-tech/yahalom-forked/commit/32864b7f7ecd3061f3b52e4d2b1bf0586b2ff3a1))
+
 ## [1.6.0](https://github.com/baruchInsert-tech/yahalom-forked/compare/v1.5.0...v1.6.0) (2025-09-21)
 
 
