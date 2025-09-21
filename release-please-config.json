@@ -4,13 +4,11 @@
   "include-component-in-tag": false,
   "packages": {
     ".": {
-      "release-type": "simple",
       "extra-files": [
         {
-          "type": "plain",
+          "type": "yaml",
           "path": "ProjectSettings/ProjectSettings.asset",
-          "search": "bundleVersion: .*",
-          "replace": "bundleVersion: ${version}"
+          "jsonpath": "$.PlayerSettings.bundleVersion"
         }
       ]
     }
