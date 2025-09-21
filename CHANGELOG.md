@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.5.0](https://github.com/baruchInsert-tech/yahalom-forked/compare/v1.4.0...v1.5.0) (2025-09-21)
+
+
+### Features
+
+* add-text-test-file ([3dcc51f](https://github.com/baruchInsert-tech/yahalom-forked/commit/3dcc51fb4d5104cfc0b346dcf3d090bdefb55534))
+* add-text-test-file ([f83ccb4](https://github.com/baruchInsert-tech/yahalom-forked/commit/f83ccb4ce9a962f173e8d649d1f54c09176fac29))
+
 ## [1.4.0](https://github.com/baruchInsert-tech/yahalom-forked/compare/v1.3.0...v1.4.0) (2025-09-18)
 
 
