@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{5a8e7516-07f6-6e0a-4046-4faa220c254d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.mapcolonies.core", "com.mapcolonies.core.csproj", "{17fa1efb-c5e2-7fc4-7c1c-dc5bc8b55dd4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayModeTests", "PlayModeTests.csproj", "{b3f2e772-3d1f-028c-1c31-f2961c85970a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditorTests", "EditorTests.csproj", "{08354511-fe54-7ce4-b598-d9fbaa2a9b3f}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5a8e7516-07f6-6e0a-4046-4faa220c254d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5a8e7516-07f6-6e0a-4046-4faa220c254d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17fa1efb-c5e2-7fc4-7c1c-dc5bc8b55dd4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17fa1efb-c5e2-7fc4-7c1c-dc5bc8b55dd4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b3f2e772-3d1f-028c-1c31-f2961c85970a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b3f2e772-3d1f-028c-1c31-f2961c85970a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08354511-fe54-7ce4-b598-d9fbaa2a9b3f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08354511-fe54-7ce4-b598-d9fbaa2a9b3f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+{
+  "name": "com.DefaultCompany.yahalom",
+  "version": "1.0.0",
+  "displayName": "My Awesome Package",
+  "description": "This is a custom package containing shared code and assets.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Baruch",
+    "email": "baruch1723@gmail.com",
+    "url": "https://www.your-website.com"
+  }
+}
