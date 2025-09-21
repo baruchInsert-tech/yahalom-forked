@@ -2,8 +2,7 @@ name: release-please
 
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
   workflow_dispatch:
 
 permissions:
@@ -19,5 +18,4 @@ jobs:
           command: manifest
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
-          # Built-in token is fine for same-repo releases
           token: ${{ secrets.GITHUB_TOKEN }}
